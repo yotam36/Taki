@@ -25,7 +25,7 @@ function setGameBoard(){
 
     function setfirstPackage(){
         
-        for (let i = 1; i<=1; i++){
+        for (let i = 1; i<=6; i++){
             addCardToPlayer();
             addCardToComputer();
         }
