@@ -1,0 +1,149 @@
+* {
+    background-color: #a4c2f4ff;
+    color: black;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#logo{
+    height: 100px;
+  }
+
+  body {
+      margin: 0;
+  }
+
+  .gameBoard {
+      display: flex;
+      width: 100%;
+      height: 70vh;
+      justify-content: center;
+  }
+
+.card{
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 144px;
+    width: 120px;
+    border: 2px solid black;
+    background-color: #eeeeeeff;
+}
+
+.card .number{
+    background-color: #eeeeeeff;
+    color: blue;
+}
+
+.newCard{
+    margin-top: 6vh;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: transparent;
+    color: black;
+}
+
+.cardPackage {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
+
+.backImage {
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 144px;
+    width: 120px;
+    border: 2px solid black;
+    background-color: #eeeeeeff;
+}
+
+.topNum, .bottomNum{
+    height: 14px;
+    width: 70%;
+    display: inline-flex;     
+    justify-content: space-between;
+}
+
+.mainNum{
+    font-size: 60px;
+}
+
+.container {
+    display: block;
+    width: 100px;
+    /* border: 1px solid black; */
+    width: 30vw;
+}
+
+.PlayerTitle {
+    width: 100%;
+    height: 20%;
+    font-size: 35px;
+}
+
+.cardsList {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 4vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 120px);
+    grid-template-rows: repeat(auto-fit, 144px);
+    row-gap: 1vh;
+    column-gap: 1vw;
+    overflow: scroll;
+}
+
+.credit {
+    margin-top: 10vh;
+    font-size: 17px;
+}
+
+.turns{
+    width: 100%;
+    font-size: 30px;
+    height: 20%;
+    margin-top: 10vh;
+    margin-bottom: 1px;
+    height: 5vh;
+}
+
+.pageCover {
+    position:fixed; 
+    z-index:10; 
+    background-color: transparent; 
+    width:100vw; 
+    height:100vh; 
+    top:0; 
+    left:0;  
+}
+
+.hidden{
+    display: none;
+}
+
+.gameEnd {
+    position:fixed; 
+    z-index:10; 
+    background-color: rgba(97, 95, 95, 0.747);
+    width:100vw; 
+    height:100vh; 
+    top:0; 
+    left:0;  
+    font-size: 200px;
+    color: black;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+
+
+
+
+
+
+

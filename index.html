@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Taki Game</title>
+</head>
+<body onload="setGameBoard()">
+
+    <div class="hidden pageCover"></div>
+
+    <div class="hidden gameEnd"></div>
+
+
+    <img id="logo" src="Taki_Cards_Game_Logo.png">
+
+    <div class="gameBoard">
+
+    <div class="compuer container">
+        <div class="PlayerTitle">Computer</div>
+        <div id="computer-card-list"  class="cardsList">
+
+        </div>
+        <div class="number-cards-left board">
+            Number of Cards Left: <span id="computer-cards-left">6</span>
+        </div>
+    </div>
+
+<div id="middle" class="container">
+    <div class="turns"></div>
+    <div id="card" class="card">
+        <div class="topNum number">
+            <p class="top number visnum left"></p>
+            <p class="top number visnum right"></p>
+        </div>
+        <div class="mainNum visnum number"></div>
+        <div class="bottomNum number">
+            <p class="bottom visnum number"></p>
+            <p class="bottom visnum number"></p>
+        </div>
+    </div>
+
+    <div class="cardPackage">
+        <div class="newCard">
+            Click on package to take new card
+        </div>
+
+        <img class="backImage" src="card_back.png">
+    </div>
+
+    <div>
+        Round number: <span class= "round">0</span>
+    </div>
+    </div>
+
+    <div class="Player container">
+        <div class="PlayerTitle">You</div>
+        <div id="player-card-list"  class="cardsList">
+
+        </div>
+        <div class="number-cards-left">
+            Number of Cards Left: <span id="player-cards-left">6</span>
+        </div>
+    </div>
+</div>
+
+<div class="credit">
+    Created By: Yotam Laor
+</div>
+
+</body>
+</html>
